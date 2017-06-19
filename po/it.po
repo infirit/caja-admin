@@ -1,12 +1,12 @@
-# Italian translations for nautilus-admin package.
+# Italian translations for caja-admin package.
 # Copyright (C) 2015 Bruno Nova <brunomb.nova@gmail.com>
-# This file is distributed under the same license as the nautilus-admin package.
+# This file is distributed under the same license as the caja-admin package.
 # Stefano Capitani <stefano@manjaro.org>, 2016.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-admin 0.2.0\n"
-"Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
+"Project-Id-Version: caja-admin 0.2.0\n"
+"Report-Msgid-Bugs-To: https://github.com/infirit/caja-admin/issues\n"
 "POT-Creation-Date: 2016-06-22 22:47+0100\n"
 "PO-Revision-Date: 2016-06-01 20:00+0200\n"
 "Last-Translator: Stefano Capitani <stefano@manjaro.org>\n"
@@ -18,35 +18,35 @@ msgstr ""
 "X-Generator: Poedit 1.8.5\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: extension/nautilus-admin.py:122
+#: extension/caja-admin.py:122
 msgid "CAUTION!"
 msgstr "ATTENZIONE !"
 
-#: extension/nautilus-admin.py:104
+#: extension/caja-admin.py:104
 msgid "Edit as A_dministrator"
 msgstr "Editare come A_mministratore"
 
-#: extension/nautilus-admin.py:88
+#: extension/caja-admin.py:88
 msgid "Open as A_dministrator"
 msgstr "Aprire come A_mministratore"
 
-#: extension/nautilus-admin.py:105
+#: extension/caja-admin.py:105
 msgid "Open this file in the text editor with root privileges"
 msgstr "Aprire questo file nell'editor di testo con privilegi di root"
 
-#: extension/nautilus-admin.py:89
+#: extension/caja-admin.py:89
 msgid "Open this folder with root privileges"
 msgstr "Aprire questa cartella con privilegi di root"
 
-#: extension/nautilus-admin.py:96
+#: extension/caja-admin.py:96
 msgid "Run as A_dministrator"
 msgstr "Eseguire come A_mministratore"
 
-#: extension/nautilus-admin.py:97
+#: extension/caja-admin.py:97
 msgid "Run this file with root privileges"
 msgstr "Aprire questo file con privilegi di root"
 
-#: extension/nautilus-admin.py:123
+#: extension/caja-admin.py:123
 msgid ""
 "Running the File Manager, the Text Editor or an executable with "
 "Administrator privileges <b>is dangerous</b>! <b>You can easily destroy your "

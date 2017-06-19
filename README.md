@@ -1,17 +1,19 @@
-Nautilus Admin
+Caja Admin
 ==============
+
+This is a port/fork of https://github.com/brunonova/nautilus-admin for the Caja file manager
 
 [![GPLv3 license](http://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
 
-Nautilus Admin is a simple Python extension for the Nautilus file manager that
+Caja Admin is a simple Python extension for the Caja file manager that
 adds some administrative actions to the right-click menu:
 
-*   **Open as Administrator**: opens a folder in a new Nautilus window running
+*   **Open as Administrator**: opens a folder in a new Caja window running
     with administrator (root) privileges.
-*   **Edit as Administrator**: opens a file in a Gedit window running with
+*   **Edit as Administrator**: opens a file in a Pluma window running with
     administrator (root) privileges.
 *   **Run as Administrator**: runs an executable file with administrator (root)
-    privileges inside a GNOME Terminal.
+    privileges inside a MATE Terminal.
 
 
 ## WARNING!
@@ -52,6 +54,6 @@ Check the [CONTRIBUTING.md][contribute] file for info on how to contribute.
 
 [install]: INSTALL.md
 [contribute]: CONTRIBUTING.md
-[homepage]: https://github.com/brunonova/nautilus-admin
-[download]: https://github.com/brunonova/nautilus-admin/releases
-[issues]: https://github.com/brunonova/nautilus-admin/issues
+[homepage]: https://github.com/infirit/caja-admin
+[download]: https://github.com/infirit/caja-admin/releases
+[issues]: https://github.com/infirit/caja-admin/issues

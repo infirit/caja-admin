@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com> -->
 <component type="addon">
-    <id>nautilus-admin</id>
-    <extends>org.gnome.Nautilus.desktop</extends>
+    <id>caja-admin</id>
+    <extends>org.mate.Caja.desktop</extends>
     <metadata_license>GPL-3.0+</metadata_license>
     <project_license>GPL-3.0+</project_license>
-    <name>Nautilus Admin</name>
-    <summary>Extension for Nautilus to do administrative operations</summary>
-    <summary xml:lang="pt">Extensão para o Nautilus para realizar operações administrativas</summary>
+    <name>Caja Admin</name>
+    <summary>Extension for Caja to do administrative operations</summary>
+    <summary xml:lang="pt">Extensão para o Caja para realizar operações administrativas</summary>
     <description>
         <p>
-            Nautilus Admin is a simple Python extension for the Nautilus file
+            Caja Admin is a simple Python extension for the Caja file
             manager that adds some administrative actions to the right-click
             menu:
         </p>
         <p xml:lang="pt">
-            O Nautilus Admin é uma extensão em Python simples para o gestor de
-            ficheiros Nautilus que adiciona algumas acções administrativas ao
+            O Caja Admin é uma extensão em Python simples para o gestor de
+            ficheiros Caja que adiciona algumas acções administrativas ao
             menu de contexto:
         </p>
         <ul>
             <li>
-                Open as Administrator: opens a folder in a new Nautilus window
+                Open as Administrator: opens a folder in a new Caja window
                 running with administrator (root) privileges.
             </li>
             <li>
@@ -36,7 +36,7 @@
         <ul xml:lang="pt">
             <li>
                 Abrir como Administrador: abre uma pasta numa nova janela do
-                Nautilus a correr com privilégios de administrador (root).
+                Caja a correr com privilégios de administrador (root).
             </li>
             <li>
                 Editar como Administrador: abre um ficheiro numa janela do Gedit
@@ -49,8 +49,8 @@
             </li>
         </ul>
     </description>
-    <url type="homepage">http://brunonova.github.io/nautilus-admin/</url>
-    <url type="bugtracker">http://brunonova.github.io/nautilus-admin/issues/</url>
+    <url type="homepage">http://infirit.github.io/caja-admin/</url>
+    <url type="bugtracker">http://infirit.github.io/caja-admin/issues/</url>
     <developer_name>Bruno Nova</developer_name>
     <update_contact>brunomb.nova@gmail.com</update_contact>
     <releases>

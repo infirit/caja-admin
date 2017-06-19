@@ -1,15 +1,15 @@
-Installing Nautilus Admin from source
+Installing Caja Admin from source
 =====================================
 
 1.  Install the dependencies.
     In Ubuntu and Debian, these are the known dependencies:
 
     *   cmake
-    *   gedit *(optional)*
+    *   pluma *(optional)*
     *   gettext
-    *   gnome-terminal *(optional)*
+    *   mate-terminal *(optional)*
     *   policykit-1
-    *   python-nautilus
+    *   caja-python
 
 2.  Open a terminal in the project directory and run:
 
@@ -19,8 +19,8 @@ Installing Nautilus Admin from source
         make
         sudo make install
 
-3.  If Nautilus is running, restart it:
+3.  If Caja is running, restart it:
 
-        nautilus -q
+        caja -q
 
     Then start it again.

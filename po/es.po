@@ -1,12 +1,12 @@
-# Spanish translation for nautilus-admin package
+# Spanish translation for caja-admin package
 # Copyright (C) 2016 Bruno Nova <brunomb.nova@gmail.com>
-# This file is distributed under the same license as the nautilus-admin package.
+# This file is distributed under the same license as the caja-admin package.
 # David López <david.lopez@upct.es>, 2016.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: nautilus-admin 0.2.0\n"
-"Report-Msgid-Bugs-To: https://github.com/brunonova/nautilus-admin/issues\n"
+"Project-Id-Version: caja-admin 0.2.0\n"
+"Report-Msgid-Bugs-To: https://github.com/infirit/caja-admin/issues\n"
 "POT-Creation-Date: 2016-06-22 22:47+0100\n"
 "PO-Revision-Date: 2016-03-29 10:46+0100\n"
 "Last-Translator: David López <david.lopez@upct.es>\n"
@@ -16,37 +16,37 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: extension/nautilus-admin.py:122
+#: extension/caja-admin.py:122
 msgid "CAUTION!"
 msgstr "¡ADVERTENCIA!"
 
-#: extension/nautilus-admin.py:104
+#: extension/caja-admin.py:104
 msgid "Edit as A_dministrator"
 msgstr "Editar como A_dministrador"
 
-#: extension/nautilus-admin.py:88
+#: extension/caja-admin.py:88
 msgid "Open as A_dministrator"
 msgstr "Abrir como A_dministrador"
 
-#: extension/nautilus-admin.py:105
+#: extension/caja-admin.py:105
 msgid "Open this file in the text editor with root privileges"
 msgstr "Editar este archivo con privilegios de administrador"
 
-#: extension/nautilus-admin.py:89
+#: extension/caja-admin.py:89
 msgid "Open this folder with root privileges"
 msgstr "Abrir esta carpeta con privilegios de administrador"
 
-#: extension/nautilus-admin.py:96
+#: extension/caja-admin.py:96
 #, fuzzy
 msgid "Run as A_dministrator"
 msgstr "Abrir como A_dministrador"
 
-#: extension/nautilus-admin.py:97
+#: extension/caja-admin.py:97
 #, fuzzy
 msgid "Run this file with root privileges"
 msgstr "Abrir esta carpeta con privilegios de administrador"
 
-#: extension/nautilus-admin.py:123
+#: extension/caja-admin.py:123
 #, fuzzy
 msgid ""
 "Running the File Manager, the Text Editor or an executable with "

@@ -1,4 +1,4 @@
-Contributing to Nautilus Admin
+Contributing to Caja Admin
 ==============================
 
 The extension is licensed under the GPLv3, so you are free to use it, modify it
@@ -34,4 +34,4 @@ If you add any translatable string to the extension, please run the
 
 
 
-[issues]: https://github.com/brunonova/nautilus-admin/issues
+[issues]: https://github.com/infirit/caja-admin/issues
