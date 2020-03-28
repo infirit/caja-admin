@@ -15,15 +15,16 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-import os, subprocess, traceback
+import gettext, os, subprocess, traceback
 from gi.repository import Caja, GObject, Gtk, GLib
-from gettext import gettext, locale, bindtextdomain, textdomain
 
 ROOT_UID = 0
 PKEXEC_PATH="@PKEXEC_PATH@"
 CAJA_PATH="@CAJA_PATH@"
 PLUMA_PATH="@PLUMA_PATH@"
 TERMINAL_PATH="@TERMINAL_PATH@"
+
+gettext.install('caja-admin')
 
 class CajaAdmin(Caja.MenuProvider, GObject.GObject):
 	"""Simple Caja extension that adds some administrative (root) actions to
@@ -41,7 +42,6 @@ class CajaAdmin(Caja.MenuProvider, GObject.GObject):
 
 		# Add the menu items
 		items = []
-		self._setup_gettext();
 		self.window = window
 		if file.get_uri_scheme() == "file": # must be a local file/directory
 			if file.is_directory():
@@ -64,7 +64,6 @@ class CajaAdmin(Caja.MenuProvider, GObject.GObject):
 
 		# Add the menu items
 		items = []
-		self._setup_gettext();
 		self.window = window
 		if file.is_directory() and file.get_uri_scheme() == "file":
 			if os.path.exists(CAJA_PATH):
@@ -72,36 +71,27 @@ class CajaAdmin(Caja.MenuProvider, GObject.GObject):
 
 		return items
 
-
-	def _setup_gettext(self):
-		"""Initializes gettext to localize strings."""
-		try: # prevent a possible exception
-			locale.setlocale(locale.LC_ALL, "")
-		except:
-			pass
-		bindtextdomain("caja-admin")
-
 	def _create_caja_item(self, file):
 		"""Creates the 'Open as Administrator' menu item."""
 		item = Caja.MenuItem(name="CajaAdmin::Caja",
-		                     label=gettext("Open as A_dministrator"),
-		                     tip=gettext("Open this folder with root privileges"))
+		                     label=_("Open as A_dministrator"),
+		                     tip=_("Open this folder with root privileges"))
 		item.connect("activate", self._caja_run, file)
 		return item
 
 	def _create_exec_item(self, file):
 		"""Creates the 'Run as Administrator' menu item."""
 		item = Caja.MenuItem(name="CajaAdmin::ExecAdmin",
-		                     label=gettext("Run as A_dministrator"),
-		                     tip=gettext("Run this file with root privileges"))
+		                     label=_("Run as A_dministrator"),
+		                     tip=_("Run this file with root privileges"))
 		item.connect("activate", self._exec_run, file)
 		return item
 
 	def _create_gedit_item(self, file):
 		"""Creates the 'Edit as Administrator' menu item."""
 		item = Caja.MenuItem(name="CajaAdmin::Gedit",
-		                     label=gettext("Edit as A_dministrator"),
-		                     tip=gettext("Open this file in the text editor with root privileges"))
+		                     label=_("Edit as A_dministrator"),
+		                     tip=_("Open this file in the text editor with root privileges"))
 		item.connect("activate", self._gedit_run, file)
 		return item
 
@@ -115,18 +105,17 @@ class CajaAdmin(Caja.MenuProvider, GObject.GObject):
 			return True
 		else:
 			# Show the warning dialog
-			self._setup_gettext();
 			dialog = Gtk.MessageDialog(self.window, 0, Gtk.MessageType.WARNING,
 			                           Gtk.ButtonsType.OK_CANCEL,
-			                           gettext("CAUTION!"))
-			msg = gettext("Running the File Manager, the Text Editor or an executable with "
-			              "Administrator privileges <b>is dangerous</b>! "
-			              "<b>You can easily destroy your system if you are not careful!</b>\n"
-			              "<b>Think twice</b> before doing so, especially before running "
-			              "untrusted executables downloaded from the Internet. "
-			              "<b>They can contain malware</b>, which can do <b>irreversible "
-			              "damage to your system</b> when given Administrator privileges!\n"
-			              "Proceed only if you know what you are doing and understand the risks.")
+			                           _("CAUTION!"))
+			msg = _("Running the File Manager, the Text Editor or an executable with "
+			        "Administrator privileges <b>is dangerous</b>! "
+			        "<b>You can easily destroy your system if you are not careful!</b>\n"
+			        "<b>Think twice</b> before doing so, especially before running "
+			        "untrusted executables downloaded from the Internet. "
+			        "<b>They can contain malware</b>, which can do <b>irreversible "
+			        "damage to your system</b> when given Administrator privileges!\n"
+			        "Proceed only if you know what you are doing and understand the risks.")
 			dialog.format_secondary_markup(msg)
 			response = dialog.run()
 			dialog.destroy()
