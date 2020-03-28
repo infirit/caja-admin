@@ -18,6 +18,7 @@ configure_file(polkit/org.freedesktop.caja-admin.policy.in
 gettext_create_translations(po/caja-admin.pot ALL
 	po/ar.po
 	po/de.po
+	po/cs/po
 	po/es.po
 	po/fr.po
 	po/it.po
