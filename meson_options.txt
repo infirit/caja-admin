@@ -1,0 +1,4 @@
+option('pkexecpath', type: 'string', value: '/usr/bin/pkexec', description: 'pkexec program path')
+option('cajapath', type: 'string', value: '/usr/bin/caja', description: 'caja program path')
+option('plumapath', type: 'string', value: '/usr/bin/pluma', description: 'pluma program path')
+option('terminalpath', type: 'string', value: '/usr/bin/mate-terminal', description: 'mate-terminal program path')
