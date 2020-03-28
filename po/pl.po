@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-admin 0.2.0\n"
 "Report-Msgid-Bugs-To: https://github.com/infirit/caja-admin/issues\n"
-"POT-Creation-Date: 2016-06-22 22:47+0100\n"
+"POT-Creation-Date: 2020-03-28 14:43+0100\n"
 "PO-Revision-Date: 2016-07-15 15:07+0100\n"
 "Last-Translator: Nolt <nolt@wizzi.pl>\n"
 "Language-Team: \n"
@@ -16,35 +16,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: extension/caja-admin.py:122
-msgid "CAUTION!"
-msgstr "UWAGA!"
-
-#: extension/caja-admin.py:104
-msgid "Edit as A_dministrator"
-msgstr "Edytuj jako Administrator"
-
-#: extension/caja-admin.py:88
+#: extension/caja-admin.py.in:88
 msgid "Open as A_dministrator"
 msgstr "Otwórz jako Administrator"
 
-#: extension/caja-admin.py:105
-msgid "Open this file in the text editor with root privileges"
-msgstr "Otwórz ten plik w edytorze tekstowym z prawami roota"
-
-#: extension/caja-admin.py:89
+#: extension/caja-admin.py.in:89
 msgid "Open this folder with root privileges"
 msgstr "Otwórz ten folder z prawami roota"
 
-#: extension/caja-admin.py:96
+#: extension/caja-admin.py.in:96
 msgid "Run as A_dministrator"
 msgstr "Uruchom jako Administrator"
 
-#: extension/caja-admin.py:97
+#: extension/caja-admin.py.in:97
 msgid "Run this file with root privileges"
 msgstr "Uruchom ten plik z prawami roota"
 
-#: extension/caja-admin.py:123
+#: extension/caja-admin.py.in:104
+msgid "Edit as A_dministrator"
+msgstr "Edytuj jako Administrator"
+
+#: extension/caja-admin.py.in:105
+msgid "Open this file in the text editor with root privileges"
+msgstr "Otwórz ten plik w edytorze tekstowym z prawami roota"
+
+#: extension/caja-admin.py.in:122
+msgid "CAUTION!"
+msgstr "UWAGA!"
+
+#: extension/caja-admin.py.in:123
 msgid ""
 "Running the File Manager, the Text Editor or an executable with "
 "Administrator privileges <b>is dangerous</b>! <b>You can easily destroy your "
@@ -56,10 +56,11 @@ msgid ""
 "Proceed only if you know what you are doing and understand the risks."
 msgstr ""
 "Uruchomienie menedżera plików, edytora tekstowego lub uruchomienie pliku z "
-"prawami Administratora <b>jest niebezpieczne</b>! <b>Możesz w łatwy sposób zniszczyć "
-"system operacyjny, jeżeli nie zachowasz ostrożności!</b>\n"
-"<b>Zastanów się dwa razy</b> zanim wykonasz jakąkolwiek czynność, a przede wszystkim "
-"uruchamiając niezaufane pliki pobrane z internetu. <b>Mogą one zawierać malware</b>, "
-"który <b>może nieodwracalnie uszkodzić Twój system</b>, jeżeli udzielisz tym plikom "
-"praw administracyjnych!\n"
-"Kontynuuj, tylko jeżeli wiesz co robisz i jesteś świadomy podejmowanego ryzyka."
+"prawami Administratora <b>jest niebezpieczne</b>! <b>Możesz w łatwy sposób "
+"zniszczyć system operacyjny, jeżeli nie zachowasz ostrożności!</b>\n"
+"<b>Zastanów się dwa razy</b> zanim wykonasz jakąkolwiek czynność, a przede "
+"wszystkim uruchamiając niezaufane pliki pobrane z internetu. <b>Mogą one "
+"zawierać malware</b>, który <b>może nieodwracalnie uszkodzić Twój system</"
+"b>, jeżeli udzielisz tym plikom praw administracyjnych!\n"
+"Kontynuuj, tylko jeżeli wiesz co robisz i jesteś świadomy podejmowanego "
+"ryzyka."

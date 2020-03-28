@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-admin 0.2.0\n"
 "Report-Msgid-Bugs-To: https://github.com/infirit/caja-admin/issues\n"
-"POT-Creation-Date: 2016-06-22 22:47+0100\n"
+"POT-Creation-Date: 2020-03-28 14:43+0100\n"
 "PO-Revision-Date: 2016-07-04 20:40+0300\n"
 "Last-Translator: Mantas Kriaučiūnas <mantas@akl.lt>\n"
 "Language-Team: Lithuanian <komp_lt@konf.lt>\n"
@@ -16,35 +16,35 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: extension/caja-admin.py:122
-msgid "CAUTION!"
-msgstr "DĖMESIO!"
-
-#: extension/caja-admin.py:104
-msgid "Edit as A_dministrator"
-msgstr "K_eisti kaip Administratorius"
-
-#: extension/caja-admin.py:88
+#: extension/caja-admin.py.in:88
 msgid "Open as A_dministrator"
 msgstr "At_verti kaip Administratorius"
 
-#: extension/caja-admin.py:105
-msgid "Open this file in the text editor with root privileges"
-msgstr "Šį failą redaguoti administratoriaus teisėmis su tekstų rengykle"
-
-#: extension/caja-admin.py:89
+#: extension/caja-admin.py.in:89
 msgid "Open this folder with root privileges"
 msgstr "Atverti šį aplanką administratoriaus (root) teisėmis"
 
-#: extension/caja-admin.py:96
+#: extension/caja-admin.py.in:96
 msgid "Run as A_dministrator"
 msgstr "Vykdyti A_dministratoriaus teisėmis"
 
-#: extension/caja-admin.py:97
+#: extension/caja-admin.py.in:97
 msgid "Run this file with root privileges"
 msgstr "Vykdyti šį failą administratoriaus teisėmis"
 
-#: extension/caja-admin.py:123
+#: extension/caja-admin.py.in:104
+msgid "Edit as A_dministrator"
+msgstr "K_eisti kaip Administratorius"
+
+#: extension/caja-admin.py.in:105
+msgid "Open this file in the text editor with root privileges"
+msgstr "Šį failą redaguoti administratoriaus teisėmis su tekstų rengykle"
+
+#: extension/caja-admin.py.in:122
+msgid "CAUTION!"
+msgstr "DĖMESIO!"
+
+#: extension/caja-admin.py.in:123
 msgid ""
 "Running the File Manager, the Text Editor or an executable with "
 "Administrator privileges <b>is dangerous</b>! <b>You can easily destroy your "
@@ -55,11 +55,11 @@ msgid ""
 "Administrator privileges!\n"
 "Proceed only if you know what you are doing and understand the risks."
 msgstr ""
-"Administratoriaus (root) teisėmis vykdyti programą bei tvarkyti ar "
-"redaguoti failus <b>rizikinga ir nesaugu</b>! <b>Jūs galite nesunkiai sugadinti "
-"šią operacinę sistemą jei būsite neatsargus!</b>\n"
-"<b>Pagalvokite dar kartą</b> prieš tai darydami, ypač nesaugu yra vykdyti atsisiųstas "
-"programas (skriptus) iš Interneto. <b>Šios programos gali turėti virusų</b>, "
-"kurie gali <b>negrįžtamai sunaikinti jūsų duomenis bei sistemos failus</b> jei bus "
-"paleisti Administratoriaus teisėmis!\n"
+"Administratoriaus (root) teisėmis vykdyti programą bei tvarkyti ar redaguoti "
+"failus <b>rizikinga ir nesaugu</b>! <b>Jūs galite nesunkiai sugadinti šią "
+"operacinę sistemą jei būsite neatsargus!</b>\n"
+"<b>Pagalvokite dar kartą</b> prieš tai darydami, ypač nesaugu yra vykdyti "
+"atsisiųstas programas (skriptus) iš Interneto. <b>Šios programos gali turėti "
+"virusų</b>, kurie gali <b>negrįžtamai sunaikinti jūsų duomenis bei sistemos "
+"failus</b> jei bus paleisti Administratoriaus teisėmis!\n"
 "Tęskite tik jei tikrai suprantate galimas rizikas ir kodėl taip darote."

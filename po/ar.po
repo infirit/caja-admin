@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: caja-admin 0.2.0\n"
 "Report-Msgid-Bugs-To: https://github.com/infirit/caja-admin/issues\n"
-"POT-Creation-Date: 2016-06-22 22:47+0100\n"
+"POT-Creation-Date: 2020-03-28 14:43+0100\n"
 "PO-Revision-Date: 2015-09-26 17:37+0100\n"
 "Last-Translator: Guattaf Abdelkarim <gkraim@gmail.com>\n"
 "Language-Team: Arabic <wahaproject@gmail.com>\n"
@@ -18,35 +18,35 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: extension/caja-admin.py:122
-msgid "CAUTION!"
-msgstr "تنبيه!"
-
-#: extension/caja-admin.py:104
-msgid "Edit as A_dministrator"
-msgstr "_عدِّل كمدير"
-
-#: extension/caja-admin.py:88
+#: extension/caja-admin.py.in:88
 msgid "Open as A_dministrator"
 msgstr "افتح ك_مدير"
 
-#: extension/caja-admin.py:105
-msgid "Open this file in the text editor with root privileges"
-msgstr "افتح هذا الملف بإستخدام محرر النصوص بصلاحية الجذر"
-
-#: extension/caja-admin.py:89
+#: extension/caja-admin.py.in:89
 msgid "Open this folder with root privileges"
 msgstr "افتح هذا المجلد بصلاحية ال_جذر"
 
-#: extension/caja-admin.py:96
+#: extension/caja-admin.py.in:96
 msgid "Run as A_dministrator"
 msgstr "شغِّل ك_مدير"
 
-#: extension/caja-admin.py:97
+#: extension/caja-admin.py.in:97
 msgid "Run this file with root privileges"
 msgstr "شغِّل هذا الملف بصلاحية ال_جذر"
 
-#: extension/caja-admin.py:123
+#: extension/caja-admin.py.in:104
+msgid "Edit as A_dministrator"
+msgstr "_عدِّل كمدير"
+
+#: extension/caja-admin.py.in:105
+msgid "Open this file in the text editor with root privileges"
+msgstr "افتح هذا الملف بإستخدام محرر النصوص بصلاحية الجذر"
+
+#: extension/caja-admin.py.in:122
+msgid "CAUTION!"
+msgstr "تنبيه!"
+
+#: extension/caja-admin.py.in:123
 msgid ""
 "Running the File Manager, the Text Editor or an executable with "
 "Administrator privileges <b>is dangerous</b>! <b>You can easily destroy your "
@@ -57,9 +57,10 @@ msgid ""
 "Administrator privileges!\n"
 "Proceed only if you know what you are doing and understand the risks."
 msgstr ""
-"تشغيل مدير الملفات أو محرّر النصوص بصلاحيات الجذر <b>خطير</b>! "
-"<b>بإمكانك تحطيم نظامك بسهولة إذا لم تكن حذرا!</b>\n"
-"<b>فكر جيدا</b> قبل القيام بذلك، خصوصا قبل تشغيل الملفات التنفيذية غير الموثوقة والمحمّلة من الإنترنت. "
-"<b>يمكن أن تحتوي على برمجيات ضارة</b>، والتي يمكن أن تقوم "
-"<b>بأضرار غير قابلة للإصلاح للنظام الخاص بك</b> عندما تُعطى امتيازات المدير!\n"
+"تشغيل مدير الملفات أو محرّر النصوص بصلاحيات الجذر <b>خطير</b>! <b>بإمكانك "
+"تحطيم نظامك بسهولة إذا لم تكن حذرا!</b>\n"
+"<b>فكر جيدا</b> قبل القيام بذلك، خصوصا قبل تشغيل الملفات التنفيذية غير "
+"الموثوقة والمحمّلة من الإنترنت. <b>يمكن أن تحتوي على برمجيات ضارة</b>، والتي "
+"يمكن أن تقوم <b>بأضرار غير قابلة للإصلاح للنظام الخاص بك</b> عندما تُعطى "
+"امتيازات المدير!\n"
 "أكمل فقط إذا كنت تعرف ماذا تفعل ومتفهما لهذه المخاطر."
