@@ -79,8 +79,7 @@ class CajaAdmin(Caja.MenuProvider, GObject.GObject):
 			locale.setlocale(locale.LC_ALL, "")
 		except:
 			pass
-		bindtextdomain("caja-admin", "@CMAKE_INSTALL_PREFIX@/share/locale")
-		textdomain("caja-admin")
+		bindtextdomain("caja-admin")
 
 	def _create_caja_item(self, file):
 		"""Creates the 'Open as Administrator' menu item."""

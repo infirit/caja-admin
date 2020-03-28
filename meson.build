@@ -15,7 +15,6 @@ conf_data.set('PKEXEC_PATH', get_option('pkexecpath'))
 conf_data.set('CAJA_PATH', get_option('cajapath'))
 conf_data.set('PLUMA_PATH', get_option('plumapath'))
 conf_data.set('TERMINAL_PATH', get_option('terminalpath'))
-conf_data.set('CMAKE_INSTALL_PREFIX', get_option('prefix'))
 
 configure_file(
     input: 'extension/caja-admin.py.in',
