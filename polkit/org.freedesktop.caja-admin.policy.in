@@ -9,6 +9,7 @@
 	<action id="org.freedesktop.pkexec.caja">
 		<description>Run Caja as Root</description>
 		<description xml:lang="ar">شغّل نوتلس كجذر</description>
+		<description xml:lang="eu">Exekutatu Caja Root gisa</description>
 		<description xml:lang="it">Esegui Caja come Root</description>
 		<description xml:lang="pt">Executar o Caja como Root</description>
 		<description xml:lang="fr">Lancez Caja en tant qu'administrateur</description>
@@ -20,6 +21,7 @@
 		<description xml:lang="de">Caja als Aministrator ausführen</description>
 		<message>Authentication is required to run the File Manager as Administrator</message>
 		<message xml:lang="ar">المصادقة مطلوبة لتشغيل مدير الملفات كمدير</message>
+		<message xml:lang="eu">Autentifikazioa behar da fitxategi-arakatzailea administratzaile gisa exekutatzeko</message>
 		<message xml:lang="it">Autenticazione richiesta per lanciare il File Manager come Amministratore</message>
 		<message xml:lang="pt">Autenticação é necessária para executar o Gestor de Ficheiros como Administrador</message>
 		<message xml:lang="fr">L'authentification est requise pour lancer le gestionnaire de fichiers en tant qu'administrateur</message>
@@ -43,6 +45,7 @@
 	<action id="org.freedesktop.pkexec.pluma">
 		<description>Open Pluma as Root</description>
 		<description xml:lang="ar">افتح محرر النصوص Pluma كجذر</description>
+		<description xml:lang="eu">Ireki Pluma Root gisa</description>
 		<description xml:lang="pt">Abrir Pluma como Root</description>
 		<description xml:lang="it">Aprire Pluma come Root</description>
 		<description xml:lang="fr">Ouvrir Pluma en tant qu'administrateur</description>
@@ -54,6 +57,7 @@
 		<description xml:lang="de">Öffne Pluma als Administrator</description>
 		<message>Authentication is required to run the Text Editor as Administrator</message>
 		<message xml:lang="ar">المصادقة مطلوبة لتشغيل محرر النصوص كمدير</message>
+		<message xml:lang="eu">Autentifikazioa behar da testu-editorea administratzaile gisa exekutatzeko</message>
 		<message xml:lang="pt">Autenticação é necessária para executar o Editor de Texto como Administrador</message>
 		<message xml:lang="fr">L'authentification est requise pour lancer l'éditeur de texte en tant qu'administrateur</message>
 		<message xml:lang="ru">Для запуска Текстового Редактора от имени Администратора требуется аутентификация</message>
@@ -76,25 +80,27 @@
 	<action id="org.freedesktop.pkexec.mateterminal">
         <description>Run as Root</description>
         <description xml:lang="ar">شغّل كجذر</description>
+        <description xml:lang="eu">Exekutatu Root gisa</description>
         <description xml:lang="fr">Exécuter en tant qu'administrateur</description>
-	<description xml:lang="it">Eseguire come Root</description>
+		<description xml:lang="it">Eseguire come Root</description>
         <description xml:lang="pt">Executar como Root</description>
-	<description xml:lang="ru">Запустить как Администратор</description>
-	<description xml:lang="lt">Vykdyti Administratoriaus teisėmis</description>
-	<description xml:lang="pl">Uruchom jako Root</description>
-	<description xml:lang="sk">Spustenie ako správca</description>
-	<description xml:lang="de">Als Administrator ausführen</description>
+		<description xml:lang="ru">Запустить как Администратор</description>
+		<description xml:lang="lt">Vykdyti Administratoriaus teisėmis</description>
+		<description xml:lang="pl">Uruchom jako Root</description>
+		<description xml:lang="sk">Spustenie ako správca</description>
+		<description xml:lang="de">Als Administrator ausführen</description>
         <message>Authentication is required to run as Administrator</message>
         <message xml:lang="ar">المصادقة مطلوبة للتشغيل كمدير</message>
+		<message xml:lang="eu">Autentifikazioa behar da administratzaile gisa exekutatzeko</message>
         <message xml:lang="fr">L'authentification est requise pour exécuter en tant qu'administrateur</message>
-	<message xml:lang="it">Autenticazione necessaria per eseguire come Amministratore</message>
+		<message xml:lang="it">Autenticazione necessaria per eseguire come Amministratore</message>
         <message xml:lang="pt">Autenticação é necessária para executar como Administrador</message>
-	<message xml:lang="ru">Для запуска исполняемых файлов от имени Администратора требуется аутентификация</message>
-	<message xml:lang="lt">Vykdomųjų failų paleidimui Administratoriaus teisėmis reikia įvesti slaptažodį</message>
-	<message xml:lang="pl">Uwierzytelnienie jest wymagane aby uruchomić jako Administrator</message>
-	<message xml:lang="sk">Na spustenie ako administrátor sa vyžaduje overenie totožnosti</message>
-	<message xml:lang="de">Authentifizierung ist erforderlich zum ausführen als Administrator</message>
-	<message xml:lang="zh_CN">以超级用户身份运行</message>
+		<message xml:lang="ru">Для запуска исполняемых файлов от имени Администратора требуется аутентификация</message>
+		<message xml:lang="lt">Vykdomųjų failų paleidimui Administratoriaus teisėmis reikia įvesti slaptažodį</message>
+		<message xml:lang="pl">Uwierzytelnienie jest wymagane aby uruchomić jako Administrator</message>
+		<message xml:lang="sk">Na spustenie ako administrátor sa vyžaduje overenie totožnosti</message>
+		<message xml:lang="de">Authentifizierung ist erforderlich zum ausführen als Administrator</message>
+		<message xml:lang="zh_CN">以超级用户身份运行</message>
         <icon_name>utilities-terminal</icon_name>
         <defaults>
             <allow_any>auth_admin</allow_any>
