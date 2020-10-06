@@ -1,0 +1,67 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Bruno Nova <brunomb.nova@gmail.com>
+# This file is distributed under the same license as the caja-admin package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: https://github.com/infirit/caja-admin/issues\n"
+"Project-Id-Version: caja-admin\n"
+"POT-Creation-Date: 2020-03-28 14:45+0100\n"
+"PO-Revision-Date: 2020-10-06 18:11+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: eu\n"
+
+#: extension/caja-admin.py.in:88
+msgid "Open as A_dministrator"
+msgstr "Ireki A_dministratzaile gisa"
+
+#: extension/caja-admin.py.in:89
+msgid "Open this folder with root privileges"
+msgstr "Ireki karpeta hau root baimenekin"
+
+#: extension/caja-admin.py.in:96
+msgid "Run as A_dministrator"
+msgstr "Exekutatu A_dministratzaile gisa"
+
+#: extension/caja-admin.py.in:97
+msgid "Run this file with root privileges"
+msgstr "Exekutatu fitxategi hau root baimenekin"
+
+#: extension/caja-admin.py.in:104
+msgid "Edit as A_dministrator"
+msgstr "Editatu A_dministratzaile gisa"
+
+#: extension/caja-admin.py.in:105
+msgid "Open this file in the text editor with root privileges"
+msgstr "Ireki fitxategi hau testu editorean root baimenekin"
+
+#: extension/caja-admin.py.in:122
+msgid "CAUTION!"
+msgstr "KONTUZ!"
+
+#: extension/caja-admin.py.in:123
+msgid ""
+"Running the File Manager, the Text Editor or an executable with "
+"Administrator privileges <b>is dangerous</b>! <b>You can easily destroy your "
+"system if you are not careful!</b>\n"
+"<b>Think twice</b> before doing so, especially before running untrusted "
+"executables downloaded from the Internet. <b>They can contain malware</b>, "
+"which can do <b>irreversible damage to your system</b> when given "
+"Administrator privileges!\n"
+"Proceed only if you know what you are doing and understand the risks."
+msgstr ""
+"Fitxategi-arakatzailea, testu-editorea edo exekutagarri bat Administratzaile "
+"baimenekin exekutatzea <b>arriskutsua da</b>! <b>Erraza da zure sistema "
+"izorratzea kontuz ez bazabiltza!</b>\n"
+"<b>Pentsatu bitan</b> ekin aurretik, berezirik internetetik jaitsitako "
+"exekutagarri ezezagunak exekutatu aurretik. <b>Malware-a eduki dezakete</b>, "
+"<b>zure sisteman kalte konponezinak</b> sortu dezakeena Administratzaile "
+"baimenak ematean!\n"
+"Soilik egitear zaudena eta bere arriskuak ulertzen badituzu jarraitu."
