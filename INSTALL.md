@@ -4,7 +4,7 @@ Installing Caja Admin from source
 1.  Install the dependencies.
     In Ubuntu and Debian, these are the known dependencies:
 
-    *   cmake
+    *   meson
     *   pluma *(optional)*
     *   gettext
     *   mate-terminal *(optional)*
@@ -13,11 +13,10 @@ Installing Caja Admin from source
 
 2.  Open a terminal in the project directory and run:
 
-        mkdir build
+        meson -Dprefix=/usr build
         cd build
-        cmake ..
-        make
-        sudo make install
+        ninja
+        sudo ninja install
 
 3.  If Caja is running, restart it:
 
