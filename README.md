@@ -1,7 +1,7 @@
 Caja Admin
 ==============
 
-This is a port/fork of https://github.com/brunonova/nautilus-admin for the Caja file manager
+This is a port/fork of https://github.com/brunonova/nautilus-admin for the Caja file manager. Also be aware this extension only for in X.org and not in wayland. You are encouraged to use the gvfs admin interface (``admin://``).
 
 [![GPLv3 license](http://img.shields.io/badge/license-GPLv3-brightgreen.svg)](http://www.gnu.org/licenses/gpl-3.0.html)
 
