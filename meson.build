@@ -1,6 +1,6 @@
 project(
     'caja-admin',
-    version: '0.0.3',
+    version: '0.0.5',
     license: 'GPL3',
     meson_version: '>=0.50.0'
 )
